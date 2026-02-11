@@ -5,9 +5,9 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import dynamic from "next/dynamic";
 
 const Grid = dynamic(() => import("@/components/Grid"));
-const RecentProjects = dynamic(() => import("@/components/RecentProjects"), {
-  ssr: false,
-});
+// const RecentProjects = dynamic(() => import("@/components/RecentProjects"), {
+//   ssr: false,
+// });
 const Experience = dynamic(() => import("@/components/Experience"));
 const Footer = dynamic(() => import("@/components/Footer")); 
 

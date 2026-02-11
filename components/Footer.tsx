@@ -16,7 +16,8 @@ const Footer = () => {
 
       <div className="flex md:flex-row flex-col justify-between items-center">
         <p className="mb-6 md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 <span className="text-sky-500">Hakeem Clarke</span>
+          Copyright ©{new Date().getFullYear()}
+          <span className="text-sky-500"> Hakeem Clarke</span>
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
